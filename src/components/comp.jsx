@@ -9,6 +9,7 @@ const MultiplesImages = (props) => {
     return (
         <div>
             <Container>
+                <h1 className='text-center'>Subí tus imgs</h1>
                 <Dropzone className= 'dropzone' onChange={(e)=>setImage(e.target.value)} value={image}>
                     {({getRootProps, getInputProps}) => (
                         <section>
