@@ -41,7 +41,7 @@ const MultiplesImages = (props) => {
                     {({getRootProps, getInputProps}) => (
                         <section>
                             <div {...getRootProps({className:'dropzone'})}> <input {...getInputProps()} /> <span>archivito icon</span>
-                            <p>Colocá las boludeces acá</p>
+                            <p>Colocá las fotos por acá</p>
 
                             </div>
                         </section>
